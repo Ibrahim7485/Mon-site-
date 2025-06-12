@@ -1,0 +1,98 @@
+<!DOCTYPE html> <html lang="fr"> 
+    <head> <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>Contact</title> 
+    <link rel="stylesheet" href="style.css" />
+    <style>body { 
+        margin: 0; 
+        padding: 0; 
+        height: 100vh;
+         background: url(ICONE.jpg) no-repeat center center/cover; 
+         display: flex; 
+         align-items: center;
+          justify-content: center;
+           font-family: 'Segoe UI', sans-serif;
+         }
+          .glass-form {
+             background: rgba(223, 219, 219, 0.1); 
+             border-radius: 16px; 
+             padding: 40px 30px; 
+             width: 90%; 
+             max-width: 400px;
+              backdrop-filter: blur(12px);
+              -webkit-backdrop-filter: blur(12px);
+               border: 1px solid rgba(34, 32, 32, 0.2);
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+                 color: rgb(15, 15, 15); 
+                }
+         .glass-form h2 { 
+                    text-align: center;
+                     margin-bottom: 20px;
+            
+                     } 
+        .glass-form input,.glass-form textarea { 
+            width: 100%;
+             margin-bottom: 15px;
+             padding: 12px;
+             border: none; border-radius: 8px; 
+             background: rgba(19, 18, 18, 0.15); 
+             color: rgb(26, 24, 24); 
+             font-size: 16px;
+              outline: none;
+              resize: none; } 
+              .glass-form input::placeholder, .glass-form textarea::placeholder { 
+                color: #141313; } 
+                .glass-form button { 
+                    width: 100%; padding: 12px; 
+                    border: none; border-radius: 8px; 
+                    background: rgba(4, 25, 92, 0.3);
+                     color: rgb(19, 18, 18); 
+                     font-size: 16px; 
+                     cursor: pointer;
+                      transition: background 0.3s ease; }
+       .glass-form button:hover { 
+        background: rgba(255, 255, 255, 0.5); } 
+        .glass-footer { 
+            margin-top: 40px; 
+            padding: 20px; 
+            text-align: center;
+             background: rgba(255, 255, 255, 0.1);
+              backdrop-filter: blur(8px); 
+              -webkit-backdrop-filter: blur(8px); 
+              border-top: 1px solid rgba(255, 255, 255, 0.2);
+               color: white;
+             }
+              .glass-footer nav a { 
+                margin: 0 15px; 
+                color: rgb(14, 13, 13);
+                 text-decoration: none; 
+                 font-weight: 500; transition: color 0.3s ease; } .glass-footer nav a:hover { color: #ddd; } 
+
+
+    </style>
+ </head> 
+ <body> 
+    
+    <div class="glass-form">
+         <h2>Contactez-nous</h2>
+          <form> 
+            <input type="text" name="prenom" placeholder="Prénom" required /> 
+            <input type="text" name="nom" placeholder="Nom" required /> 
+            <input type="email" name="email" placeholder="Email" required />
+             <textarea name="message" rows="4" placeholder="Votre message..." required>
+
+             </textarea> <button type="submit">Envoyer</button>
+             <footer class="glass-footer">
+                <nav> <a href="index.html">Accueil</a> 
+                   <a href="apropos.html">À propos</a>
+                    <a href="contact.html">Contact</a>
+                    </nav>
+            </footer> 
+
+             </form> 
+            </div>
+            
+           
+         </body>
+         </html> 
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+ <html lang="fr"> 
+<head> <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+     <title>Projet Pierre-Feuille-Ciseaux</title> <link rel="stylesheet" href="style.css" />
+     <style>body { 
+        margin: 0; 
+        padding: 0;
+         font-family: 'Segoe UI', sans-serif; 
+         background: url('ICONE.jpg') no-repeat center center/cover;
+          
+           } 
+           .glass-section, .glass-form, .glass-team {
+             background: rgba(255, 255, 255, 0.08); 
+             backdrop-filter: blur(10px); 
+             -webkit-backdrop-filter: blur(10px); 
+             border-radius: 16px; 
+             padding: 0px; 
+             margin: 0px;
+              width: 100%; 
+             max-width: 1000px; 
+             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+             height: auto;
+              } 
+              .glass-section h1 {
+             font-size: 32px; 
+             margin-bottom: 10px;
+              } 
+              .glass-section ul { 
+                list-style: none;
+                 padding: 0; } 
+              .glass-section ul li::before { 
+                content: "• "; 
+              color: #161515; } 
+              .glass-form form input, .glass-form form textarea { 
+                width: 100%;
+                padding: 12px; 
+                margin-bottom: 15px; 
+                border-radius: 8px; 
+                background: rgba(255, 255, 255, 0.15);
+                 border: none; 
+                 color: rgb(22, 21, 21); 
+                 font-size: 16px; 
+                 }
+                  .glass-form form button { 
+                    width: 100%; padding: 12px; 
+                    border: none; border-radius: 8px; 
+                    background: rgba(255, 255, 255, 0.3);
+                     color: rgb(56, 134, 207);
+                      font-size: 16px; 
+                     cursor: pointer;
+                      } 
+                      .glass-form form button:hover {
+                         background: rgba(255, 255, 255, 0.5);
+                          }
+                     .team-container { 
+                        display: flex;
+                      flex-wrap: wrap; 
+                      justify-content: center;
+                       gap: 30px; 
+                      margin-top: auto;
+                    
+                      } 
+                       .team-member {
+                         background: rgba(255, 255, 255, 0.1);
+                          padding: auto; 
+                          width: 300px;
+                           border-radius: 16px;
+                            text-align: center;
+                             backdrop-filter: blur(8px); 
+                             box-shadow: 0 4px 20px rgba(0,0,0,0.2); } 
+                             .team-member img {
+                              width: 120px; 
+                              height: 130px;
+                               object-fit: cover; 
+                               border-radius: 50%; 
+                               margin-bottom: 15px; 
+                               border: 2px solid rgba(255, 255, 255, 0.3); } 
+                               .team-member h3 { 
+                               margin: 0px 0px; 
+                               font-size: 20px; } 
+                               .team-member .role { 
+                                font-style: italic;
+                                 color: #89daf3;
+                                  margin-bottom: 10px; }
+                                .team-member p { font-size: 14px; } 
+                                .glass-footer { 
+                                  text-align: center;
+                                   padding: 20px; 
+                                   background: rgba(255, 255, 255, 0.1);
+                                    backdrop-filter: blur(8px); 
+                                    border-top: 1px solid rgba(255, 255, 255, 0.2); } 
+                                    .glass-footer nav a { 
+                                        margin: 0 15px; 
+                                        color: rgb(14, 13, 13);
+                                        text-decoration: none; 
+                                        font-weight: auto; 
+                                        transition: color 0.3s ease;
+                                        
+                                       } 
+                                        .glass-footer nav a:hover { color: #ddd; } </style> 
+    </head> 
+    <body> 
+        
+                <!-- Section À propos -->
+                  <section id="apropos" > 
+                    <h2>Notre Équipe</h2><br>
+                    
+                  <div class="team-container"> 
+                        <div class="team-member"> <img src="kebe.jpg" alt="kebe"> <h3>kébé fodé ibrahima</h3>
+                             <p class="role">Développeur Back-End</p> 
+                             <p>Gestion de la logique du jeu et des services liés aux formulaires.</p> 
+                         </div>
+
+                         <div class="team-member"> <img src="S.jpg" alt="saran kourouma"> 
+                            <h3>saran kourouma</h3> <p class="role">UX/UI Designer</p> 
+                            <p>Conception de l'interface utilisateur et de l'expérience visuelle du jeu.</p> 
+                        </div> 
+
+                        <div class="team-member"> <img src="komano.jpg" alt="Saa Mohamed Komano">
+                             <h3>Saa Mohamed Komano</h3> 
+                             <p class="role">Développeur front-End</p> 
+                             <p>Responsable de l'intégration HTML/CSS et de l'interactivité utilisateur.</p>
+                         </div> 
+
+                         <div class="team-member"> <img src="D.jpg" alt="Encadreur">
+                             <h3>Mr Alpha Amadou Diallo</h3>
+                              <p class="role">Encadreure du projet</p> 
+                              <p>Fournit un encadrement pédagogique et assure la bonne progression du projet.</p>
+                         </div>
+
+                         <footer class="glass-footer"> 
+                          <nav> <a href="index.html">Accueil</a><br> 
+                              <a href="apropos.html">À propos</a>
+                               <a href="contact.html">Contact</a>
+                           </nav>
+                       </footer>
+                    </div> 
+                </section>    
+             </body>
+            </html> 
+
